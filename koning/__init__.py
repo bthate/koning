@@ -4,5 +4,5 @@
 
 """
 
-__version__ = 37
+__version__ = 40
 __txt__ = "Het betreft hier echt niet medicatie maar gif"

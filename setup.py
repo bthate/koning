@@ -65,7 +65,7 @@ with open('README') as file:
 
 setup(
     name='koning',
-    version='37',
+    version='40',
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
