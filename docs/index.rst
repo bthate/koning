@@ -15,5 +15,4 @@ response
     :glob:
     :hidden:
 
-    LICENSE
     txt/*
