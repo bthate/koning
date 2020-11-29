@@ -3,5 +3,5 @@
 beuker2
 =======
 
-.. image:: ../jpg/beuker2.jpg
+.. image:: beuker2.jpg
 

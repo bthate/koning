@@ -3,7 +3,7 @@
 greffe
 ======
 
-.. image:: ../jpg/nederland2.jpg
+.. image:: nederland2.jpg
     :width: 100%
     :height: 4cm
 

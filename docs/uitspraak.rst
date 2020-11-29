@@ -3,4 +3,4 @@
 uitspraak
 =========
 
-.. image:: ../jpg/20140730_011.jpg
+.. image:: 20140730_011.jpg

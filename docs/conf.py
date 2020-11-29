@@ -62,7 +62,7 @@ html_theme = "haiku"
 #}
 html_theme_path = []
 html_short_title = "KONING %s" % __version__
-html_favicon = "jpg/aes.ico"
+html_favicon = "aes.ico"
 html_static_path = []
 html_extra_path = []
 html_last_updated_fmt = '%Y-%b-%d'
@@ -77,6 +77,14 @@ html_copy_source = False
 html_use_opensearch = 'http://koning.rtfd.io/'
 html_file_suffix = '.html'
 htmlhelp_basename = 'pydoc'
+
+rst_prolog = """.. image:: bewijsgif4.jpg
+    :height: 3.1cm
+    :width: 100%
+
+.. title:: the king of the netherlands commits genocide
+""" 
+
 intersphinx_mapping = {
                        'python': ('https://docs.python.org/3', 'objects.inv'),
                        'sphinx': ('http://sphinx.pocoo.org/', None),

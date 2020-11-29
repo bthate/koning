@@ -65,7 +65,7 @@ with open('README') as file:
 
 setup(
     name='koning',
-    version='40',
+    version='41',
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
@@ -77,9 +77,7 @@ setup(
     scripts=["bin/koning"],
     packages=['koning', ],
     long_description=long_description,
-    data_files=[("docs", ["docs/conf.py","docs/index.rst"]),
-               (j('docs', 'jpg'), uploadlist(os.path.join("docs","jpg"))),
-               (j('docs', 'txt'), uploadlist(os.path.join("docs", "txt"))),
+    data_files=[("docs", uploadlist("docs")),
                (j('docs', '_templates'), uploadlist(os.path.join("docs", "_templates")))
               ],
     package_data={'': ["*.crt"],
