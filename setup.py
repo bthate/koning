@@ -69,7 +69,7 @@ setup(
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description="Het betreft hier echter geen medicatie maar gif",
+    description="Not a basis to proceed means the king is doing his genocide",
     license='MIT',
     include_package_data=True,
     zip_safe=False,

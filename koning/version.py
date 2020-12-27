@@ -6,5 +6,5 @@
 
 from koning import __version__, __txt__
 
-def version(event):
+def ver(event):
     event.reply("KONING %s - %s" % (__version__, __txt__))
