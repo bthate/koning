@@ -65,15 +65,15 @@ with open('README') as file:
 
 setup(
     name='koning',
-    version='41',
+    version='42',
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description="Not a basis to proceed means the king is doing his genocide",
+    description="using the law to administer poison the king commits genocide",
     license='MIT',
     include_package_data=True,
     zip_safe=False,
-    install_requires=["obj"],
+    install_requires=["oplib"],
     scripts=["bin/koning"],
     packages=['koning', ],
     long_description=long_description,
@@ -84,7 +84,7 @@ setup(
                  },
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'License :: OSI Approved :: MIT License',
+        'License :: Public Domain',
         'Operating System :: Unix',
         'Programming Language :: Python',
         'Topic :: Utilities'],
