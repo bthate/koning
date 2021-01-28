@@ -1,0 +1,5 @@
+# KONING (bin/clean)
+#
+# this file is placed in the public domain
+
+rm -fR koning/*~ koning/__pycache__ .lintrc docs/op*.rst html env env.tar.gz docs/*~ test/*~ test/__pycache__ op/*~ op/__pycache__ dist build *~ __pycache__ bin/*~ koning.egg-info
