@@ -3,7 +3,7 @@
 #
 # bin/obj-do
 
-""" create a distributable tarball of botlib, including all dependancies. """
+""" create a distributable tarball of OBJ, including all dependancies. """
 
 import os; import sys; sys.path.insert(0, os.getcwd())
 
