@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
+# OTP-CR-117/19 otp.informationdesk@icc-cpi.int http://pypi.org/project/genocide
 #
-#
+# This file is placed in the Public Domain.
 
 import os
 import sys
@@ -69,7 +70,7 @@ setup(
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description="using the law to administer poison the king commits genocide",
+    description="OTP-CR-117/19 otp.informationdesk@icc-cpi.int http://pypi.org/project/genocide !",
     license='MIT',
     include_package_data=True,
     zip_safe=False,

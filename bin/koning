@@ -1,81 +1,41 @@
 #!/usr/bin/env python3
-# KONING - using the law to administer poison the king commits genocide
+# OTP-CR-117/19 otp.informationdesk@icc-cpi.int http://pypi.org/project/genocide
 #
-# this file is placed in the public domain
+# This file is placed in the Public Domain.
 
-import os, sys ; sys.path.insert(0, os.getcwd())
+"console"
 
-import atexit
-import op
-import os
-import readline
-import signal
-import sys
-import threading
-import time
+# imports
 
-from op.hdl import Command, Handler, cmd
-from op.prs import parse_cli
-from op.sel import Select
-from op.thr import launch
-from op.trm import termreset, termsave
-from op.utl import opcheck, privileges
+from op.run import Console, cfg, exec, parse_cli, os
 
-wd = os.path.abspath(os.path.expanduser("~/.op"))
-md = os.path.join(wd, "mod", "")
+# defines
 
-class Console(Select):
+cfg.wd = os.path.expanduser("~/.koning")
 
-    def __init__(self):
-        super().__init__()
-        self.register("cmd", cmd)
-        self.register_fd(sys.stdin)
+# classes
 
-    def poll(self):
-        return Command(input("> "))
+class Console(Console):
 
     def direct(self, txt):
         print(txt)
 
-    def say(self, channel, txt):
-        self.direct(txt)
-
-class Mini(Handler):
-
-    def direct(self, txt):
-        print(txt)
-
-def console(main):
-    termsave()
-    try:
-        main()
-    except KeyboardInterrupt:
-        print("")
-    except PermissionError as ex:
-        print(str(ex))
-    finally:
-        termreset()
+# functions
 
 def main():
-    cfg = parse_cli(wd)
-    c = Console()
-    c.load("op.cmd")
-    c.walk("koning")
-    c.fromdir(os.path.join(cfg.sets.wd, "mod"))
-    c.fromdir("mod", "mod")
+    parse_cli()
+    h = Console()
+    h.walk("koning,op")
+    h.fromdir(os.path.join(cfg.wd, "mod"))
+    h.load_mod("cli,cmd,ver")
+    h.load_mod(cfg.mods)
     if cfg.txt:
-        m = Mini()
-        m.clone(c)
-        return m.cmd(cfg.otxt)
-    if opcheck("s", cfg):
-        c.start()
-        for thr in c.init(cfg.sets.mods):
-            thr.join()
-        for thr in c.init(cfg.sets.mods, "mod"):
-            thr.join()
-        c.wait()
+        return h.cmd(cfg.otxt)
+    if cfg.op("c"):
+        h.start()
+        h.init(cfg.mods)
+        h.wait()
 
-cmds = []
-starttime = time.time()
-console(main)
-os._exit(0)
+# runtime
+
+exec(main)
