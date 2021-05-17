@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 
-__version__ = 8
+__version__ = 44
 
 import unittest
 import doctest
