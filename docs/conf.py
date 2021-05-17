@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 #
 
+__version__ = 8
+
 import unittest
 import doctest
 import sys
@@ -11,8 +13,6 @@ import os
 curdir = os.getcwd()
 sys.path.insert(0, curdir + os.sep)
 sys.path.insert(0, curdir + os.sep + '..' + os.sep)
-
-from koning import __version__, __txt__
 
 needs_sphinx='1.1'
 nitpick_ignore=[

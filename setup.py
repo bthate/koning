@@ -74,7 +74,7 @@ setup(
     license='MIT',
     include_package_data=True,
     zip_safe=False,
-    install_requires=["oplib"],
+    install_requires=["oplib>=8"],
     scripts=["bin/koning"],
     packages=['koning', ],
     long_description=long_description,
