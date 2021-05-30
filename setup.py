@@ -61,12 +61,12 @@ def uploadlist(dir):
 
     return upl
 
-with open('README') as file:
-    long_description = file.read()
+def read():
+    return open("README.rst", "r").read()
 
 setup(
     name='koning',
-    version='44',
+    version='45',
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
@@ -74,10 +74,9 @@ setup(
     license='MIT',
     include_package_data=True,
     zip_safe=False,
-    install_requires=["oplib>=8"],
+    install_requires=["botlib"],
     scripts=["bin/koning"],
-    packages=['koning', ],
-    long_description=long_description,
+    long_description=read(),
     data_files=[("docs", uploadlist("docs")),
                (j('docs', '_templates'), uploadlist(os.path.join("docs", "_templates")))
               ],
