@@ -40,12 +40,12 @@ saylock = _thread.allocate_lock()
 class Cfg(Default):
 
     cc = "!"
-    channel = "#ob"
-    nick = "ob"
+    channel = "#koning"
+    nick = "konig"
     port = 6667
-    server = "localhost"
-    realname = "python3 object library"
-    username = "ob"
+    server = "botd.io"
+    realname = "http://genocide.rtfd.io otp.informationdesk@icc-cpi.int OTP-CR-117/19"
+    username = "koning"
     users = False
 
     def __init__(self, val=None):
