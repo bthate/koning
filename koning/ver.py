@@ -1,3 +1,3 @@
 # This file is in the Public Domain.
 
-__version__ = 1
+__version__ = 47
