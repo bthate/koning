@@ -4,46 +4,8 @@
 # This file is placed in the Public Domain.
 
 import os
-import sys
-import os.path
 
-def j(*args):
-    if not args: return
-    todo = list(map(str, filter(None, args)))
-    return os.path.join(*todo)
-
-if sys.version_info.major < 3:
-    print("you need to run koning with python3")
-    os._exit(1)
-
-try:
-    use_setuptools()
-except:
-    pass
-
-try:
-    from setuptools import setup
-except Exception as ex:
-    print(str(ex))
-    os._exit(1)
-
-target = "koning"
-upload = []
-
-def uploadfiles(dir):
-    upl = []
-    if not os.path.isdir(dir):
-        print("%s does not exist" % dir)
-        os._exit(1)
-    for file in os.listdir(dir):
-        if not file or file.startswith('.'):
-            continue
-        d = dir + os.sep + file
-        if not os.path.isdir(d):
-            if file.endswith(".pyc") or file.startswith("__pycache"):
-                continue
-            upl.append(d)
-    return upl
+from setuptools import setup
 
 def uploadlist(dir):
     upl = []
@@ -58,7 +20,6 @@ def uploadlist(dir):
             if file.endswith(".pyc") or file.startswith("__pycache"):
                 continue
             upl.append(d)
-
     return upl
 
 def read():
@@ -66,22 +27,17 @@ def read():
 
 setup(
     name='koning',
-    version='45',
+    version='47',
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description="OTP-CR-117/19 otp.informationdesk@icc-cpi.int http://pypi.org/project/genocide !",
-    license='MIT',
-    include_package_data=True,
+    description="EM_T04_OTP-CR-117_19 prosecute king netherlands http://genocide.rtfd.io",
+    license='Public Domain',
     zip_safe=False,
-    install_requires=["botlib"],
     scripts=["bin/koning"],
     long_description=read(),
-    data_files=[("docs", uploadlist("docs")),
-               (j('docs', '_templates'), uploadlist(os.path.join("docs", "_templates")))
-              ],
-    package_data={'': ["*.crt"],
-                 },
+    include_package_data=True,
+    data_files=[("share/doc/koning", uploadlist("docs"))],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: Public Domain',
