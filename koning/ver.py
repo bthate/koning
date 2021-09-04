@@ -1,3 +1,6 @@
-# This file is in the Public Domain.
+# This file is placed in the Public Doman.
 
-__version__ = 47
+__version__ = 28
+
+def ver(event):
+    event.reply("KAMER %s" % __version__)
