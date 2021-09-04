@@ -35,6 +35,7 @@ setup(
     license='Public Domain',
     zip_safe=False,
     scripts=["bin/koning"],
+    py_modules=["obj", "run"],
     long_description=read(),
     include_package_data=True,
     packages=["koning"],
