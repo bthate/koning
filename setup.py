@@ -27,7 +27,7 @@ def read():
 
 setup(
     name='koning',
-    version='47',
+    version='48',
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
@@ -37,6 +37,7 @@ setup(
     scripts=["bin/koning"],
     long_description=read(),
     include_package_data=True,
+    packages=["koning"],
     data_files=[("share/doc/koning", uploadlist("docs"))],
     classifiers=[
         'Development Status :: 3 - Alpha',

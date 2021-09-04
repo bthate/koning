@@ -1,6 +1,6 @@
 # This file is placed in the Public Doman.
 
-__version__ = 28
+__version__ = 48
 
 def ver(event):
-    event.reply("KAMER %s" % __version__)
+    event.reply("KONING %s" % __version__)
