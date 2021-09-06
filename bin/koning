@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # This file is placed in the Public Domain.
 
+__version__ = 49
+
 import importlib
 import os
 import pkgutil
@@ -9,9 +11,9 @@ import sys
 import termios
 import time
 
-from obj import RunCfg, Object, fmt, keys, save
-from run import Client, Runtime, Table, elapsed, find, fntime, get_exception
-from run import listfiles, spl
+from koning.obj import RunCfg, Object, fmt, keys, save
+from koning.run import Client, Runtime, Table, elapsed, find, fntime, get_exception
+from koning.run import listfiles, spl
 
 
 RunCfg.wd = os.path.expanduser("~/.koning")
@@ -99,11 +101,14 @@ tbl = Table()
 def cmd(event):
     event.reply(",".join(tbl.modnames))
 
+def ver(event):
+    event.reply("KONING %s" % __version__)
+
 def main():
-    from run import __version__
     k.boot()
     tbl.scan("koning")
     tbl.add(cmd)
+    tbl.add(ver)
     if RunCfg.verbose:
         k.log("KONING %s" % __version__)
         k.log(fmt(RunCfg, ["bork","console","daemon","debug","verbose","wd"]))

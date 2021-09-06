@@ -5,7 +5,7 @@
 
 import os
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 def uploadlist(dir):
     upl = []
@@ -27,19 +27,18 @@ def read():
 
 setup(
     name='koning',
-    version='48',
+    version='49',
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description="EM_T04_OTP-CR-117_19 prosecute king netherlands http://genocide.rtfd.io",
+    description="EM_T04_OTP-CR-117_19 prosecute king netherlands for genocide http://genocide.rtfd.io",
     license='Public Domain',
-    zip_safe=False,
-    scripts=["bin/koning"],
-    py_modules=["obj", "run"],
+    zip_safe=True,
+    packages=["koning"],
     long_description=read(),
     include_package_data=True,
-    packages=["koning"],
     data_files=[("share/doc/koning", uploadlist("docs"))],
+    scripts=["bin/koning"],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: Public Domain',
