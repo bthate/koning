@@ -27,7 +27,7 @@ def read():
 
 setup(
     name='koning',
-    version='49',
+    version='50',
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
