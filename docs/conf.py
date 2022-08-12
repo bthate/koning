@@ -12,7 +12,9 @@ curdir = os.getcwd()
 sys.path.insert(0, curdir + os.sep)
 sys.path.insert(0, curdir + os.sep + '..' + os.sep)
 
-from koning.ver import __version__
+
+__version__ = "50"
+
 
 needs_sphinx='1.1'
 nitpick_ignore=[
