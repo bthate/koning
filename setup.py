@@ -29,11 +29,11 @@ def uploadlist(dir):
 
 setup(
     name='koning',
-    version='51',
+    version='52',
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description="Prosecutor. Court. Reconsider OTP-CT-117/19",
+    description="Prosecutor. Court. Reconsider OTP-CR-117/19",
     license='Public Domain',
     zip_safe=True,
     packages=["koning"],

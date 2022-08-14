@@ -7,7 +7,7 @@
 
 
 __name__ = "koning"
-__version__ = "51"
+__version__ = "52"
 
 
 import doctest
