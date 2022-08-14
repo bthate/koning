@@ -13,8 +13,6 @@ def popen(txt):
         print(line.rstrip())
 
 
-popen("dev/clean")
-
 if os.path.exists("env"):
      print("environment is there")
 else:

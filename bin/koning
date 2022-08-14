@@ -11,6 +11,9 @@ import sys
 import termios
 import time
 
+sys.path.insert(0, os.getcwd())
+
+
 from koning.obj import RunCfg, Object, fmt, keys, save
 from koning.run import Client, Runtime, Table, elapsed, find, fntime, get_exception
 from koning.run import listfiles, spl
