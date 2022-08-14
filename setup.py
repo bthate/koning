@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
-# OTP-CR-117/19 otp.informationdesk@icc-cpi.int http://pypi.org/project/genocide
-#
 # This file is placed in the Public Domain.
+
 
 import os
 
+
 from setuptools import setup, find_packages
+
+
+def read():
+    return open("README.rst", "r").read()
+
 
 def uploadlist(dir):
     upl = []
@@ -22,16 +27,13 @@ def uploadlist(dir):
             upl.append(d)
     return upl
 
-def read():
-    return open("README.rst", "r").read()
-
 setup(
     name='koning',
-    version='50',
+    version='51',
     url='https://bitbucket.org/bthate/koning',
     author='Bart Thate',
     author_email='bthate@dds.nl',
-    description="EM_T04_OTP-CR-117_19 prosecute king netherlands for genocide http://genocide.rtfd.io",
+    description="Prosecutor. Court. Reconsider OTP-CT-117/19",
     license='Public Domain',
     zip_safe=True,
     packages=["koning"],
