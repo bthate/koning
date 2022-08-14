@@ -110,7 +110,8 @@ intersphinx_cache_limit=1
 rst_prolog = """.. image:: bewijsgif4.jpg
     :height: 2.6cm
     :width: 100%
-
+    :target: index.html
+    
 .. title:: Prosecutor. Court, Reconsider OTP-CT-117/19.
 
 """ 
