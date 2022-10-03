@@ -2,10 +2,7 @@
 #
 # EM_T04_OTP-CR-117_19 otp.informationdesk@icc-cpi.int https://genocide.rtfd.io
 
-"the trip in between"
-
-#:
-txt = """| wijsheid, wijs !
+"""| wijsheid, wijs !
 
 | OVERDRACHT
 | ==========
@@ -193,4 +190,4 @@ def register(k):
     k.addcmd(wsd)
 
 def wsd(event):
-    event.reply(random.choice(txt.split("\n")).strip()[2:])
+    event.reply(random.choice(__doc__.split("\n")).strip()[2:])

@@ -17,6 +17,6 @@ if os.path.exists("env"):
      print("environment is there")
 else:
      print("creating environment")
-     popen("dev/upenv")
+     popen("bin/upenv")
 
 popen("env/bin/python3 env/bin/sphinx-build docs html")
