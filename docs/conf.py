@@ -115,20 +115,6 @@ rst_prolog = """.. image:: bewijsgif4.jpg
 .. title:: Prosecutor. Court, Reconsider OTP-CT-117/19.
 
 """ 
-
-rst_epilog = """.. raw:: html
-
-    <br>
-    <center><b>
-
-
-:ref:`home <home>` - :ref:`source <source>`
-
-
-.. raw:: html
-
-    </b></center>
-"""
 autosummary_generate=True
 autodoc_default_flags=['members', 'undoc-members', 'private-members', "imported-members"]
 autodoc_member_order='groupwise'
