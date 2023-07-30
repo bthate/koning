@@ -3,7 +3,7 @@
 #
 
 
-"Prosecutor. Court. Reconsider OTP-CR-117/19."
+"ANTIPSYCHOTICS - AKATHISIA - CATATONIA - SEDATION - SHOCKS - LETHAL CATATONIA"
 
 
 __name__ = "koning"

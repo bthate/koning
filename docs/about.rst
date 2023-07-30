@@ -7,34 +7,35 @@
 
 .. title:: About
 
+.. image:: skull3.png
+    :width: 100%
+    :target: verbatim.html
+
 
 .. raw:: html
 
+    <br><br>
     <center>
-
-about
-#####
-
-.. raw:: html
-
+    <i>
+    By law, with the use of poison, killing, torturing, castrating, destroying,
+    </i>
     </center>
-    <br>
+    <center>
+    <i>
+    in whole or in part, all elderly and all handicapped (Wzd), all criminals (Wfz)
+    </i>
+    </center>
+    <center>
+    <i>
+    and all psychiatric patients (WvGGZ) here in the Netherlands
+    </i>
+    </center>
+    <br><br>
 
-In 2012 heb ik het Europeese Hof voor de Rechten van de Mens :ref:`aangeschreven <verzoek>` om een klacht tegen Nederland in te dienen.
-De :ref:`klacht <greffe>` betrof het afwezig zijn van verpleging in het nieuwe ambulante behandeltijdperk van de GGZ. :ref:`Uitspraak <uitspraak>` is niet-ontvankelijk. 
+In 2018 i :ref:`informed <guilty>` the king of the netherlands that what he calls medicine in his "care" laws are not medicine but poison.
+:ref:`Proof <evidence>` of these medicine being poison were shown to the king, who's (personal) kabinet wrote back that
+:ref:`"the king took note of what i have written" <king>`.
 
-Het EVRM is voor de GGZ patient een doodlopende weg.
+Using poison makes the care laws used in the netherlands to provide care to elderly and handicapped, criminals and psychiatric patients not care laws but genocide laws with which the king is killing groups of the population by giving them poison instead of medicine in the "care" they are forced to undergo.
 
-Het is pas na tussenkomst van de koningin mogelijk om :ref:`aangifte <aangifte>` te kunnen.
-De :ref:`Hoge Raad <hogeraad>` concludeert dat het geen verantwoordelijkheid heeft.
-Het verwijst vervolgens naar het :ref:`IGZ <om>`, die geen structurele :ref:`onzorgvuldigheid <igz>` in de afhandeling van klachten bij GGZ-NHN constrateert.
-De IGZ heeft erkent verantwoordelijk te zijn voor ambulante zorg, zowel voor vrijwillig als onder de BOPZ behandelde patienten, zie :ref:`quote <absoluut>`.
-
-De GGZ patient als slachtoffer word de rechtsgang naar de strafrechter geblokkeerd.
-
-De :ref:`Minister van VWS <minister>` zegt dat de wijze waarop hulp word geboden levert een bijdrage aan het voorkomen van een (dwang)opname in een ggz-instelling.
-Het is niet mogelijk voor de Koningin, noch de Koning om  :ref:`verdere tussenkomst <beuker>` te verlenen vanwege ministeriele verantwoordelijkheid. 
-
-Op basis van de veronderstelling dat opnames worden voorkomen is men bedden gaan afbouwen.
-
-
+I :ref:`wrote <writings>` the prosecutor asking for an arrest of the king (make him stop), the prosecutor decided to call it a "no basis to proceed". It requires a `basis to prosecute <index.html>`_ of the prosecutor to get the king in his cell and his genocide, thereby, stopped.
