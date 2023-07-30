@@ -43,7 +43,7 @@ def main():
     popen("rm -fR DEAD* build dist MANIFEST *.egg-info *.whl")
     popen("rm -fR store setup.cfg .pytest_cache .test  __pycache__")
     popen("rm -fR *~")
-    popen("rm -fR env")
+    popen("rm -fR html")
     loop(".", "rm -fR *~")
     loop(".", "rm -fR __pycache__")
 

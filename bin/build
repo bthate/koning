@@ -8,9 +8,10 @@
 
 
 import os
+import sys
 
 
-NAME = sys.argv[0].split()[-1]
+NAME = "koning"
 
 
 os.environ["PATH"] += ":bin"
@@ -26,8 +27,6 @@ popen("clean")
 print("\nTEST\n")
 print("\nBUILD\n")
 popen("python3 setup.py sdist")
-popen("mkenv")
-popen(f"env/bin/{NAME} cmd")
 print("\nWHEEL\n")
 popen("python3 -m pip wheel -e .")
 popen("mv *.whl dist")
