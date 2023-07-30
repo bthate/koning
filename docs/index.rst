@@ -6,11 +6,17 @@
 
 .. title:: koning
 
+
+.. raw:: html
+
+    <center>
+
 koning
 ######
 
 .. raw:: html
 
+    </center>
     <br>
 
 De koning is op de hoogte (zie http://koning.rtfd.io) dat de medicijnen toegedient met behulp van de nog in te voeren wetten gif zijn en dus moet hij ook weten dat met het in werking laten treden van deze wetten hij zich schuldig maakt aan het opdracht geven tot het toedienen van gif.
