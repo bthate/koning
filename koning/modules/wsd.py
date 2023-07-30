@@ -1,6 +1,8 @@
 # This file is placed in the Public Domain.
 #
-# EM_T04_OTP-CR-117_19 otp.informationdesk@icc-cpi.int https://genocide.rtfd.io
+# pylint: disable=C,I,R
+# flake8: noqa=E501
+
 
 """| wijsheid, wijs !
 
@@ -184,10 +186,9 @@
 | coding
 """
 
+
 import random
 
-def register(k):
-    k.addcmd(wsd)
 
 def wsd(event):
     event.reply(random.choice(__doc__.split("\n")).strip()[2:])
