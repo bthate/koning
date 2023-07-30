@@ -118,7 +118,7 @@ rst_prolog = """.. image:: bewijsgif4.jpg
     <br><br>
     <center>
     <i>
-    ANTIPSYCHOTICA - AKATHISIA - KATATONIE - SEDERING - SHOCKS - LETHALE KATATONIE 
+    ANTIPSYCHOTICS - AKATHISIA - CATATONIA - SEDATION - SHOCKS - LETHAL CATATONIA 
     </i>
     </center>
 
