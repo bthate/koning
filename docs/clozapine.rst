@@ -1,7 +1,7 @@
 .. _clozapine2:
 
 clozapine2
-#########
+##########
 
 Clozapine is een dodelijke stof, zie de bijsluiter van de FDA:
 
