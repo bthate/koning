@@ -43,10 +43,12 @@ def main():
     popen("rm -fR DEAD* build dist MANIFEST *.egg-info *.whl")
     popen("rm -fR store setup.cfg .pytest_cache .test  __pycache__")
     popen("rm -fR *~")
-    popen("rm -fR html")
+    popen("rm -fR docs/evrm.*.rst html")
+    #popen("rm -fR env")
     loop(".", "rm -fR *~")
     loop(".", "rm -fR __pycache__")
-
+    if "-f" in sys.argv:
+        popen("rm -fR env")
 
 if __name__ == "__main__":
     main()
