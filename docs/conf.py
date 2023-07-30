@@ -112,7 +112,17 @@ rst_prolog = """.. image:: bewijsgif4.jpg
     :width: 100%
     :target: index.html
     
-.. title:: Prosecutor. Court, Reconsider OTP-CT-117/19.
+
+.. raw:: html
+
+    <br><br>
+    <center>
+    <i>
+    ANTIPSYCHOTICA - AKATHISIA - KATATONIE - SEDERING - SHOCKS - LETHALE KATATONIE 
+    </i>
+    </center>
+
+
 
 """ 
 autosummary_generate=True
