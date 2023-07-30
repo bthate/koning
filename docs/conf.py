@@ -125,6 +125,21 @@ rst_prolog = """.. image:: bewijsgif4.jpg
 
 
 """ 
+
+rst_epilog = '''.. raw:: html
+
+     <br>
+     <center>
+     <b>
+
+:ref:`home <home>` - :ref:`manual <manual>` - :ref:`source <source>` - :ref:`about <about>`
+
+.. raw:: html
+
+    </b>
+    </center>
+'''
+
 autosummary_generate=True
 autodoc_default_flags=['members', 'undoc-members', 'private-members', "imported-members"]
 autodoc_member_order='groupwise'
