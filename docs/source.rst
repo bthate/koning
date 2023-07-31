@@ -33,6 +33,7 @@ source
 
     koning.bus		bus
     koning.command	commands
+    koning.define	definitions
     koning.error	errors
     koning.event	events
     koning.json		decoder/encoder
@@ -40,8 +41,10 @@ source
     koning.modules	plugins
     koning.object	clean namespace
     koning.parser	parsing
+    koning.persist	persitence
     koning.reactor	reacting
     koning.repeater	repeating 
+    koning.run		runtime
     koning.thread	threading
     koning.utils	utilities
 

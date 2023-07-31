@@ -37,7 +37,7 @@
 **KING**
 
 
-.. image:: bevestigd.jpg
+.. image:: bevestigd2.jpg
 
 .. raw:: html
 
