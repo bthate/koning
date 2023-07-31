@@ -11,9 +11,6 @@ import os
 import sys
 
 
-NAME = "koning"
-
-
 os.environ["PATH"] += ":bin"
 
 

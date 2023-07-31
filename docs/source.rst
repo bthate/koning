@@ -12,16 +12,15 @@
 
     <center>
 
-
 source
 ######
 
 .. raw:: html
 
-     </center>
+    </center>
 
 
-**GENOCIDE**
+**koning**
 
 .. raw:: html
 
@@ -52,7 +51,7 @@ source
      <br>
 
 
-**MODULES**
+**modules**
 
 
 .. raw:: html
