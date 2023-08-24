@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "koning"
-description = "ANTIPSYCHOTICA - AKATHISIA - KATATONIE - SEDERING - SHOCKS - LETHALE KATATONIE"
+description = "@KarimKhanQC @IntlCrimCourt @oszagi reconsider OTP-CR-117/19"
 version = "62"
 authors = [
     {name = "Bart Thate", email = "bthate@dds.nl" },
