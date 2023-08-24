@@ -31,16 +31,13 @@ classifiers=[
 dev = []
 
 
-[project.scripts]
-koning = "koning.__main__:wrapped"
-
-
 [tool.setuptools]
 packages = [
             "koning",
             "koning.modules"
            ]
 zip-safe = true
+script-files = ["bin/koning"]
 
 
 [tool.setuptools.data-files]
