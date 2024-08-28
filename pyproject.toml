@@ -5,8 +5,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "koning"
-description = "@KarimKhanQC @IntlCrimCourt @oszagi reconsider OTP-CR-117/19"
-version = "62"
+description = "Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten"
+version = "70"
 authors = [
     {name = "Bart Thate", email = "bthate@dds.nl" },
 ]
@@ -19,6 +19,12 @@ classifiers=[
              'Programming Language :: Python',
              'Topic :: Utilities'
             ]
+
+
+[project.scripts]
+"koning"  = "koning.__main__:wrapped"
+"koningc" = "koning.prompt:wrapped"
+"koningd" = "koning.daemon:wrapped"
 
 
 [project.urls]
@@ -37,7 +43,6 @@ packages = [
             "koning.modules"
            ]
 zip-safe = true
-script-files = ["bin/koning"]
 
 
 [tool.setuptools.data-files]
