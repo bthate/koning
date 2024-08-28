@@ -46,21 +46,21 @@ Geachte Majesteit,
 
 er is bewijs dat medicijnen (antipsychotica) gebruikt in de GGZ gif zijn:
 
-    1. haloperiodol (haldol) 
+1. haloperiodol (haldol) 
 
-       https://echa.europa.eu/substance-information/-/substanceinfo/100.000.142 
+ https://echa.europa.eu/substance-information/-/substanceinfo/100.000.142 
 
-    2. clozapine (leponex)
+2. clozapine (leponex)
 
-       https://echa.europa.eu/substance-information/-/substanceinfo/100.024.831 
+ https://echa.europa.eu/substance-information/-/substanceinfo/100.024.831 
 
-    3. olanzapine (zyprexa)
+3. olanzapine (zyprexa)
 
-       https://echa.europa.eu/substance-information/-/substanceinfo/100.125.320 
+ https://echa.europa.eu/substance-information/-/substanceinfo/100.125.320 
 
-    4. aripriprazole (abilify)
+4. aripriprazole (abilify)
 
-       https://echa.europa.eu/substance-information/-/substanceinfo/100.112.532 
+ https://echa.europa.eu/substance-information/-/substanceinfo/100.112.532 
 
 
 De Eerste Kamer heeft wetten aangenomen (de Wet Zorg en Dwang, Wet verplichte Geestelijke Gezondheid Zorg, Wet Forensische Zorg) die een wettelijk voorschrift voor het toedienen van medicatie voorzien, het betreft echter niet medicatie maar gif.  

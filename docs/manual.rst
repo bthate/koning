@@ -1,10 +1,8 @@
 .. _manual:
 
-
 .. raw:: html
 
-    <br>
-
+    <br><br>
 
 .. title:: Manual
 
@@ -14,169 +12,159 @@
     <center>
 
 manual
-######
-
+======
 
 .. raw:: html
 
     </center>
     <br>
 
+
+
 **NAME**
 
- | ``KONING`` - Reconsider OTP-CR-117/19
+    ``KONING`` - Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten `! <source.html>`_
 
 
 **SYNOPSIS**
 
- ::
+    ::
 
-  koning <cmd> [key=val] 
-  koning <cmd> [key==val]
-  koning [-c] [-d] [-v]
+        koning  <cmd> [key=val] [key==val]
+        koningc [-i] [-v]
+        koningd 
 
 
 **DESCRIPTION**
 
 
- ``KONING`` is a python3 IRC bot is intended to be programmable  in a
- static, only code, no popen, no user imports and no reading modules from
- a directory, way. It can show genocide and suicide stats of king netherlands
- his genocide into a IRC channel, display rss feeds and log simple text
- messages, source is `here <source.html>`_.
-
+    In 2018 heb ik de koning der nederlanden geinformeerd dat wat hij
+    medicatie noemt in zijn "zorg" wetten niet medicatie is maar gif.
+    Bewijs dat deze medicijnen gif zijn is aan de koning getoond waarna
+    zijn (persoonlijke) kabinet terug heeft geschreven dat "de koning 
+    kennis heeft genomen van hetgeen ik heb geschreven".
 
 
 **INSTALL**
 
- with sudo::
+    ::
 
-  $ python3 -m pip install koning
+        $ pipx install koning
+        $ pipx ensurepath
 
- as user::
+        <new terminal>
 
-  $ pipx install koning
+        $ koning srv > koning.service
+        $ sudo mv *.service /etc/systemd/system/
+        $ sudo systemctl enable koning --now
 
- or download the tar, see::
-
-  https://pypi.org/project/koning
+        joins #koning on localhost
 
 
 **USAGE**
 
+    without any argument the bot does nothing
 
- list of commands::
+    ::
 
-    $ koning cmd
-    cmd,err,flt,sts,thr,upt
+        $ koning
+        $
 
- start a console::
+    see list of commands
 
-    $ koning -c
-    >
+    ::
 
- start additional modules::
+        $ koning cmd
+        cmd,req,skl,srv
 
-    $ koning mod=<mod1,mod2> -c
-    >
 
- list of modules::
+    start a console
 
-    $ koning mod
-    cmd,err,flt,fnd,irc,log,mdl,mod,
-    req, rss,slg,sts,tdo,thr,upt,ver
+    ::
 
- to start irc, add mod=irc when
- starting::
+        $ koningc
+        >
 
-     $ koning mod=irc -c
+    start daemon
 
- to start rss, also add mod=rss
- when starting::
+    ::
 
-     $ koning mod=irc,rss -c
+        $ koningd
+        $ 
 
- start as daemon::
 
-    $ koning mod=irc,rss -d
-    $ 
+    show request to the prosecutor
+
+    ::
+
+        $ koning req
+        Information and Evidence Unit
+        Office of the Prosecutor
+        Post Office Box 19519
+        2500 CM The Hague
+        The Netherlands
 
 
 **CONFIGURATION**
 
+    irc
 
- *irc*
+    ::
 
- ::
+        $ koning cfg server=<server>
+        $ koning cfg channel=<channel>
+        $ koning cfg nick=<nick>
 
-    $ koning cfg server=<server>
-    $ koning cfg channel=<channel>
-    $ koning cfg nick=<nick>
+    sasl
 
- *sasl*
+    ::
 
- ::
+        $ koning pwd <nsvnick> <nspass>
+        $ koning cfg password=<frompwd>
 
-    $ koning pwd <nsvnick> <nspass>
-    $ koning cfg password=<frompwd>
+    rss
 
- *rss*
+    ::
 
- ::
-
-    $ koning rss <url>
-    $ koning dpl <url> <item1,item2>
-    $ koning rem <url>
-    $ koning nme <url< <name>
+        $ koning rss <url>
+        $ koning dpl <url> <item1,item2>
+        $ koning rem <url>
+        $ koning nme <url> <name>
 
 
 **COMMANDS**
 
+    ::
 
- ::
+        cfg - irc configuration
+        cmd - commands
+        mre - displays cached output
+        pwd - sasl nickserv name/pass
+        req - reconsider
 
-    cmd - commands
-    cfg - irc configuration
-    dlt - remove a user
-    dpl - sets display items
-    ftc - runs a fetching batch
-    fnd - find objects 
-    flt - instances registered
-    log - log some text
-    mdl - genocide model
-    met - add a user
-    mre - displays cached output
-    nck - changes nick on irc
-    now - genocide stats
-    pwd - sasl nickserv name/pass
-    rem - removes a rss feed
-    req - reconsider
-    rss - add a feed
-    slg - slogan
-    thr - show the running threads
-    tpc - genocide stats into topic
+
+**SOURCE**
+
+
+    source is :ref:`here <source>`
 
 
 **FILES**
 
- ::
+    ::
 
-    ~/.local/bin/koning
-    ~/.local/pipx/venvs/koning/
-    /usr/local/bin/koning
-    /usr/local/share/doc/koning
+        ~/.koning
+        ~/.local/bin/koning
+        ~/.local/bin/koningc
+        ~/.local/bin/koningd
+        ~/.local/pipx/venvs/koning/*
 
 
 **AUTHOR**
 
-
- ::
- 
     Bart Thate <bthate@dds.nl>
 
 
 **COPYRIGHT**
 
- ::
-
-    KONING is Public Domain.
+    ``KONING`` is Public Domain.

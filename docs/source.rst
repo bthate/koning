@@ -3,59 +3,25 @@
 
 .. raw:: html
 
-     <br>
+     <br><br>
+
 
 .. title:: Source
-
 
 .. raw:: html
 
     <center>
 
 source
-######
+======
 
 .. raw:: html
 
     </center>
+    <br>
 
 
-**koning**
-
-.. raw:: html
-
-     <br>
-
-
-.. autosummary::
-    :toctree: 
-    :template: base.rst
-
-    koning.bus		bus
-    koning.command	commands
-    koning.define	definitions
-    koning.error	errors
-    koning.event	events
-    koning.json		decoder/encoder
-    koning.locks	locks module
-    koning.modules	plugins
-    koning.object	clean namespace
-    koning.parser	parsing
-    koning.persist	persitence
-    koning.reactor	reacting
-    koning.repeater	repeating 
-    koning.run		runtime
-    koning.thread	threading
-    koning.utils	utilities
-
-
-.. raw:: html
-
-     <br>
-
-
-**modules**
-
+**KONING**
 
 .. raw:: html
 
@@ -66,16 +32,52 @@ source
     :toctree: 
     :template: base.rst
 
-    koning.modules.cmd	list of commands
-    koning.modules.dbg 	debug module
-    koning.modules.err	occured errors
-    koning.modules.flt	list of bots
-    koning.modules.irc	internet relay chat
-    koning.modules.log	log text
-    koning.modules.mdl	genocide model
-    koning.modules.req	request
-    koning.modules.rss	rich site syndicate
-    koning.modules.sts	status of bots
-    koning.modules.tdo	todo list
-    koning.modules.udp	udp to irc relay
-    koning.modules.wsd 	wisdom
+    koning.cache
+    koning.config
+    koning.client
+    koning.cmds
+    koning.console
+    koning.decoder
+    koning.default
+    koning.encoder
+    koning.errors
+    koning.event
+    koning.fleet
+    koning.group
+    koning.log
+    koning.main
+    koning.object
+    koning.parse
+    koning.persist
+    koning.reactor
+    koning.repeater
+    koning.thread
+    koning.timer
+    koning.utils
+
+
+.. raw:: html
+
+     <br>
+
+
+**MODULES**
+
+
+.. raw:: html
+
+     <br>
+
+.. autosummary::
+    :toctree: 
+    :template: base.rst
+
+    koning.modules.cmd
+    koning.modules.err
+    koning.modules.irc
+    koning.modules.log
+    koning.modules.mod
+    koning.modules.req
+    koning.modules.rss
+    koning.modules.tdo
+    koning.modules.thr
