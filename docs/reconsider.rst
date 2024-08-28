@@ -1,4 +1,4 @@
-.. _home:
+.. _reconsider:
 
 .. raw:: html
 

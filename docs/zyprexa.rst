@@ -1,4 +1,4 @@
-.. _zyprexa:
+.. _zyprexa2:
 
 ZYPREXA
 #######

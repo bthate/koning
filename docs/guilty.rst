@@ -1,17 +1,22 @@
 .. _guilty:
 
+
 .. raw:: html
 
-    <br>
-
+    <br><br>
 
 .. title:: Guilty
+
 
 .. _informed:
 
 
 **INFORMED**
 
+
+.. raw:: html
+
+    <br>
 
 .. image:: informed.jpg
     :width: 100%
@@ -24,8 +29,12 @@
 
 **CHAMBER**
 
-.. image:: kamer.png
+.. raw:: html
 
+    <br>
+
+.. image:: kamer2.png
+    :width: 100%
 
 .. raw:: html
 
@@ -37,7 +46,12 @@
 **KING**
 
 
-.. image:: bevestigd2.jpg
+.. raw:: html
+
+    <br>
+
+.. image:: bevestigd.jpg
+    :width: 100%
 
 .. raw:: html
 

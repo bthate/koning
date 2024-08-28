@@ -99,7 +99,11 @@ zip-safe = true
                       "docs/stoned2.jpg",
                       "docs/uitspraak.rst",
                       "docs/urls.rst",
-                      "docs/zyprexa.rst"
+                      "docs/zyprexa.rst",
+                      "docs/OTP111.png",
+                      "docs/OTP222.png",
+                      "docs/ack.png"
+                      
                      ]
 "share/doc/koning/_static" = [
                               "docs/_static/koning.css",

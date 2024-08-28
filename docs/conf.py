@@ -9,7 +9,7 @@
 
 
 NAME = "koning"
-VERSION = "61"
+VERSION = "70"
 
 
 import os
@@ -126,7 +126,7 @@ rst_epilog = '''.. raw:: html
      <center>
      <b>
 
-:ref:`home <home>` - :ref:`manual <manual>` - :ref:`source <source>` - :ref:`about <about>`
+:ref:`reconsider <reconsider>` - :ref:`evidence <evidence>` - :ref:`guilty <guilty>` - :ref:`writings <writings>`
 
 .. raw:: html
 
