@@ -32,8 +32,6 @@ source
     :toctree: 
     :template: base.rst
 
-    koning.cache
-    koning.config
     koning.client
     koning.cmds
     koning.console
@@ -43,7 +41,6 @@ source
     koning.errors
     koning.event
     koning.fleet
-    koning.group
     koning.log
     koning.main
     koning.object
@@ -73,11 +70,4 @@ source
     :template: base.rst
 
     koning.modules.cmd
-    koning.modules.err
-    koning.modules.irc
-    koning.modules.log
-    koning.modules.mod
     koning.modules.req
-    koning.modules.rss
-    koning.modules.tdo
-    koning.modules.thr
