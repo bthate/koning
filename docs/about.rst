@@ -1,54 +1,49 @@
-.. _about:
+.. _home:
+
+.. raw:: html
+
+    <br>
+
+.. title:: koning
 
 
 .. raw:: html
 
-    <br><br>
+    <center>
 
-.. title:: About
-
+koning
+######
 
 .. raw:: html
 
-    <center><b>OTP-CR-117/19</b></center><br>
+    </center>
+    <br>
 
-In 2018 i informed the king of the netherlands that what he calls
-medicine in his "care" laws are not medicine but poison. Proof of
-these medicine being poison were shown to the king, who's (personal)
-kabinet wrote back that "the king took note of what i have written".
+De koning is op de hoogte (zie http://koning.rtfd.io) dat de medicijnen toegedient met behulp van de nog in te voeren wetten gif zijn en dus moet hij ook weten dat met het in werking laten treden van deze wetten hij zich schuldig maakt aan het opdracht geven tot het toedienen van gif.
+Natuurlijk dient er voor het volksbelang direct opgetreden te worden (zie http://president.rtfd.io) , mischien voor de opvolger van deze minister president die schuldig is aan straffeloosheids zekeringen (zie http://kamer.rtfd.io).
 
-Using poison makes the care laws used in the netherlands to provide
-care to elderly and handicapped, criminals and psychiatric patients
-not care laws but genocide laws with which the king is killing groups
-of the population by giving them poison instead of medicine in
-the "care" they are forced to undergo.
+Gebruik makend van gif in zijn "zorg wetten" voor Bejaarden en  Gehandicapten
+(Wzd), Criminelen (Wfz) en Psychiatrische Patienten (WvGGZ) maakt dat deze wetten
+geen zorg wetten zijn maar genocide wetten waarbij de koning groepen in zijn bevolking
+met het toedienen van gif aan het uitmoorden is.
 
-I wrote the prosecutor asking for an arrest of the king (make him
-stop), the prosecutor decided to call it a "no basis to proceed".
+Ik heb de prosecutor van het International Criminal Court geschreven met
+het verzoek on de koning te arresteren (om hem te laten stoppen met zijn
+genocide), de prosecutor besloot dat er "no basis to proceed" is.
 
+ 
 .. raw:: html
 
     <br>
     <center>
     <b>
 
-It requires a :ref:`basis to prosecute <reconsider>` of the prosecutor
-to get the king in his cell and his genocide, thereby, stopped.
+Er is een :ref:`basis to prosecute <reconsider>` van de prosecutor nodig
+om de koning in zijn cel te krijgen and zijn genocide daarmee te stoppen.
+
 
 .. raw:: html
 
     </center>
     </b>
     <br>
-
-.. raw:: html
-
-    <center>
-
-.. image:: skull3.png
-    :width: 90%
-    :target: manual.html
-
-.. raw:: html
-
-    </center>
