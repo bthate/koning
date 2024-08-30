@@ -88,7 +88,7 @@ html_theme_options = {
     'sidebar_width': 0,
 }
 html_favicon = "skull.png"
-html_extra_path = ["robots.txt",]
+html_extra_path = []
 html_last_updated_fmt = '%Y-%b-%d'
 html_additional_pages = {}
 html_domain_indices = False

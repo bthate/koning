@@ -14,7 +14,7 @@
 
 **NAME**
 
-    ``KONING`` - Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten 
+    ``KONING`` - Bejaarden en Gehandicapten (Wzd), Criminelen (Wfz), Psychiatrische Patienten (WvGGZ) 
 
 
 **SYNOPSIS**
@@ -44,6 +44,8 @@
 
 **USAGE**
 
+   ::
+
         <new terminal>
 
         $ python3 -m koning req
@@ -53,12 +55,6 @@
         2500 CM The Hague
         The Netherlands
         
-
-**SOURCE**
-
-
-    source is :ref:`here <source>`
-
 
 **FILES**
 

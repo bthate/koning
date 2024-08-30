@@ -7,16 +7,6 @@
 .. title:: koning
 
 
-.. raw:: html
-
-    <center><b>KONING</b></center><br>
-
-
-| Bart Thate
-| Raadhuisplein 53
-| 1701 EH Heerhugowaard
-|
-|
 | Z.M. Koning Willem-Alexander
 | Paleis Noordeinde
 | Postbus 30412
@@ -57,8 +47,6 @@ Hoogachtend,
 
 Bart Thate
 
-response
-========
 
 .. raw:: html
 
