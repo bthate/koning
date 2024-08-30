@@ -10,15 +10,7 @@
 
 .. raw:: html
 
-    <center>
-
-source
-======
-
-.. raw:: html
-
-    </center>
-    <br>
+    <center><b>SOURCE</b></center><br>
 
 
 **KONING**

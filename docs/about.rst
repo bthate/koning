@@ -1,23 +1,16 @@
-.. _home:
+.. _about:
 
 .. raw:: html
 
     <br>
 
-.. title:: koning
+.. title:: About
 
 
 .. raw:: html
 
-    <center>
+    <center><b>About</b></center><br>
 
-koning
-######
-
-.. raw:: html
-
-    </center>
-    <br>
 
 De koning is op de hoogte (zie http://koning.rtfd.io) dat de medicijnen toegedient met behulp van de nog in te voeren wetten gif zijn en dus moet hij ook weten dat met het in werking laten treden van deze wetten hij zich schuldig maakt aan het opdracht geven tot het toedienen van gif.
 Natuurlijk dient er voor het volksbelang direct opgetreden te worden (zie http://president.rtfd.io) , mischien voor de opvolger van deze minister president die schuldig is aan straffeloosheids zekeringen (zie http://kamer.rtfd.io).

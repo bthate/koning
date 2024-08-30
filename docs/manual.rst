@@ -9,30 +9,19 @@
 
 .. raw:: html
 
-    <center>
-
-manual
-======
-
-.. raw:: html
-
-    </center>
-    <br>
-
+    <center><b>Manual</b></center><br>
 
 
 **NAME**
 
-    ``KONING`` - Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten `! <source.html>`_
+    ``KONING`` - Bejaarden, Gehandicapten, Criminelen, Psychiatrische Patienten 
 
 
 **SYNOPSIS**
 
     ::
 
-        koning  <cmd> [key=val] [key==val]
-        koningc [-i] [-v]
-        koningd 
+        python3 -m koning req
 
 
 **DESCRIPTION**
@@ -52,96 +41,18 @@ manual
         $ pipx install koning
         $ pipx ensurepath
 
-        <new terminal>
-
-        $ koning srv > koning.service
-        $ sudo mv *.service /etc/systemd/system/
-        $ sudo systemctl enable koning --now
-
-        joins #koning on localhost
-
 
 **USAGE**
 
-    without any argument the bot does nothing
+        <new terminal>
 
-    ::
-
-        $ koning
-        $
-
-    see list of commands
-
-    ::
-
-        $ koning cmd
-        cmd,req,skl,srv
-
-
-    start a console
-
-    ::
-
-        $ koningc
-        >
-
-    start daemon
-
-    ::
-
-        $ koningd
-        $ 
-
-
-    show request to the prosecutor
-
-    ::
-
-        $ koning req
+        $ python3 -m koning req
         Information and Evidence Unit
         Office of the Prosecutor
         Post Office Box 19519
         2500 CM The Hague
         The Netherlands
-
-
-**CONFIGURATION**
-
-    irc
-
-    ::
-
-        $ koning cfg server=<server>
-        $ koning cfg channel=<channel>
-        $ koning cfg nick=<nick>
-
-    sasl
-
-    ::
-
-        $ koning pwd <nsvnick> <nspass>
-        $ koning cfg password=<frompwd>
-
-    rss
-
-    ::
-
-        $ koning rss <url>
-        $ koning dpl <url> <item1,item2>
-        $ koning rem <url>
-        $ koning nme <url> <name>
-
-
-**COMMANDS**
-
-    ::
-
-        cfg - irc configuration
-        cmd - commands
-        mre - displays cached output
-        pwd - sasl nickserv name/pass
-        req - reconsider
-
+        
 
 **SOURCE**
 
@@ -154,9 +65,6 @@ manual
     ::
 
         ~/.koning
-        ~/.local/bin/koning
-        ~/.local/bin/koningc
-        ~/.local/bin/koningd
         ~/.local/pipx/venvs/koning/*
 
 

@@ -9,15 +9,7 @@
 
 .. raw:: html
 
-    <center>
-
-koning
-######
-
-.. raw:: html
-
-    </center>
-    <br>
+    <center><b>KONING</b></center><br>
 
 
 | Bart Thate
